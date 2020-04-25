@@ -1,0 +1,174 @@
+
+header {
+  display:block;
+  text-align: center;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  background-color: #6495ed;
+  padding-bottom: 7px;
+  font-style: oblique;
+  color: white;
+  border-color:	#708090;
+  }
+
+h1{
+  font-size: 70px;
+  color:white;
+  letter-spacing: 40px;
+  text-shadow: 4px 2px gainsboro;
+
+}
+h2{
+  font-size: 70px;
+  color:red;
+  
+}
+h3{
+  font-size: 30px;
+  color:black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+
+
+}
+h4{
+  font-size: 40px;
+  color:	#FFA07A;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-style: italic;
+
+
+}
+h5{
+  font-size: 30px;
+  color:white;
+  font-family: "Times New Roman", Times, serif;
+
+}
+h6{
+  font-size: 25px;
+  color:white;
+  font-family: "Times New Roman", Times, serif;
+
+
+}
+p{
+  font-size: 20px;
+  color: gray;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  
+}
+b{
+  font-size: 30px;
+  color: white;
+  font-family: "Lucida Console", Courier, monospace;
+
+}
+
+.mainpage{
+  width:100%;
+  display:block;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  background-color: black;
+  padding-bottom: 7px;
+  font-style: oblique;
+  color: black;
+  border-color: white;
+  
+}
+
+footer{
+  display:block;
+  text-align: center;
+  width: 100%;
+  border-style: solid;
+  border-width: 4px;
+  background-color: #6495ed;
+  padding-bottom: 7px;
+  font-style: oblique;
+  color: white;
+  border-color:	#708090;
+  font-size: 25px;
+}
+
+.middle{
+  position: absolute;
+  font-size: 20px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding-top: 2px;
+
+  }
+.vertical{
+  border-left:1px solid #708090;
+  height:220%;
+  top: 135px;
+  position : absolute;
+  left:75%;
+}
+
+.divide{
+  position: absolute;
+  z-index: 100;
+  top: 200px;
+  overflow-x: hidden;
+  overflow-y : hidden;
+  padding-top: 10px;
+}
+
+.left-mainpage{
+  left: 1;
+  height: 180%;
+  width: 75%;
+  background-color:grey;
+}
+
+.right-mainpage{
+  right: 0;
+  top: 130px;
+  height: 220%;
+  width: 24%;
+  position:absolute;
+  background-color: whitesmoke;
+ 
+}
+.image{
+  border: 6px solid #ddd;
+  border-color: 		#DAA520;
+  border-radius: 10px;
+  padding: 5px;
+  width: 900px;
+  height: 400px;
+}
+.image1{
+  width: 300px;
+  height: 300px;
+  border-radius: 9px;
+  border: 1px solid yellow;
+  border-radius: 4px;
+  padding: 5px;
+}
+.Blog1
+{
+  margin-right: auto;
+  background-color: black;
+  
+}
+.Blog3
+{
+  margin-right: auto;
+  background-color: black;
+  
+}
+.image4{
+  width: 100%;
+  height: 200px;
+ }
+ 

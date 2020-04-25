@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>React - Template</title>
+    <link rel="stylesheet" type="text/css" href="sample.css">
+    <script src="../../js/react.min.js"></script>
+    <script src="../../js/react-dom.min.js"></script>
+    <script src="../../js/browser.min.js"></script>
+</head>
+<body>
+
+    <div id="container"></div>
+
+    <script type="text/babel">
+        var Header = React.createClass({
+            render: function () {
+                return(
+                        <div className="Header-style">
+                            <img src="https://myams.org/wp-content/uploads/2013/11/Blog-graphic-from-Istock.jpg" alt="Blog Post"/>
+                        </div>
+                );
+            }
+        });
+
+        var Footer = React.createClass({
+            render: function () {
+                return(
+                        <div className="Footer-style">
+                            <h3>Copyright © 2020 Tushar Rakholiya.</h3>
+                        </div>
+                );
+            }
+        });
+
+        var MainBody = React.createClass({
+            render: function () {
+                return(
+                        <div className="MainBody-style">
+                            <div className="split left">
+                                <div className="centered">
+                                    <div className="BlogPostItem">
+                                        <h1><a href="https://www.adventurouskate.com/two-weeks-in-mexico-yucatan-road-trip-itinerary/">Adventurous KATE</a></h1>
+                                        <p>06-27-2018</p>
+                                        <img src="https://149391556.v2.pressablecdn.com/wp-content/uploads/2020/04/Two-Weeks-in-Mexico-Yucatan-Road-Trip-Itinerary-1024x768.jpg" alt="Avatar woman" />
+                                        <p>Most travelers go to Mexico to lie on the beach for a week, maybe go on an excursion to a ruin or a cenote, and head straight home.
+
+                                            And yes. That can be fun. But you can do SO MUCH better than that!!</p>
+                                        <hr />
+                                    </div>
+                                    <div className="BlogPostItem">
+                                        <h1><a href="Flex">Amateur Traveler</a></h1>
+                                        <p>Date-of-post</p>
+                                        <img src="https://amateurtraveler.com/wp-content/uploads/2020/03/landscape-800.jpg" alt="Avatar woman" />
+                                        <p>Each campground in the national park offers its visitors a unique experience.
+
+                                            Some places are better suited for families with children, while others are better suited for those of you who wish to escape the crowd and stay in solitude.</p>
+                                        <hr />
+
+                                    </div>
+                                    <div className="BlogPostItem">
+                                        <h1><a href="https://davidsbeenhere.com/2020/04/14/10-things-you-must-do-and-eat-in-kochi-kerala-india/">David's Been Here</a></h1>
+                                        <p>04-14-2020</p>
+                                        <img src="https://s9416.pcdn.co/wp-content/uploads/2020/04/10-things-you-must-do-and-eat-in-kochi-kerala-india-asia-davidsbeenhere16.jpg" alt="Avatar woman" />
+                                        <p>Kochi was the epicenter of the Indian spice trade since ancient times.
+
+                                            It was known by the Chinese, Jews, Greeks, Arabs, and Syrians. Portuguese explorer Pedro Àlvares Cabral founded the first settlement in India at Kochi in 1500. </p>
+                                        <hr />
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="split right">
+                                <div className="centered">
+
+                                </div>
+                            </div>
+                        </div>
+                );
+            }
+        });
+
+        ReactDOM.render(
+            <div>
+                <Header />
+                <MainBody/>
+                <Footer />
+            </div>,
+            document.getElementById('container')
+        );
+    </script>
+
+</body>
+</html>
